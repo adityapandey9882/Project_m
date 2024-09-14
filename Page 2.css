@@ -1,0 +1,39 @@
+body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0; 
+}
+
+.centered-content {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 4rem;
+    font-weight: 600; 
+    line-height: 1.2;
+}
+
+.lubix_utube {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.lubix_utube iframe {
+    margin-top: 30px;
+    border: none;
+    border-radius: 50px; 
+    width: 960px; 
+    height: 515px; 
+}
